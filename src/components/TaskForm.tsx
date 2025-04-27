@@ -111,7 +111,7 @@ const TaskForm: React.FC<TaskFormProps> = ({ initialTask, onClose }) => {
               onChange={(e) => setDescription(e.target.value)}
               rows={3}
               className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              placeholder="Enter task description"
+              placeholder="Please Enter task description"
             />
           </div>
           
